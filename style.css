@@ -677,7 +677,7 @@ img {
 .footer {
     background: var(--soft-black);
     color: var(--white);
-    padding: 40px 20px;
+    padding: 20px 20px;
     text-align: center;
 }
 
@@ -873,7 +873,6 @@ img {
     
     .section {
         padding: 60px 20px;
-        margin-left:5px;;
         overflow:hidden;
     }
     
@@ -894,7 +893,7 @@ img {
         padding: 0 10px;
     } */
 
-    .contact-content .contact-text{
+    /*.contact-content .contact-text{
         padding-right:200px;
         margin:auto;
     }
@@ -912,3 +911,17 @@ img {
     
 
 }
+
+
+
+/* General icon sizing */
+.social-icon i {
+    font-size: 1.5rem; /* Adjust size as needed */
+}
+
+/* Optional: Add brand colors on hover or as the icon color */
+.instagram-card .social-icon { color: #E1306C; }
+.linkedin-card .social-icon { color: #0077B5; }
+.facebook-card .social-icon { color: #1877F2; }
+.tiktok-card .social-icon { color: #000000; }
+.email-card .social-icon { color: #EA4335; }
