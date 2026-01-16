@@ -280,7 +280,3 @@ if (heroSubtitle) {
         }, 50);
     }, 1000);
 }
-
-// ===== CONSOLE MESSAGE =====
-console.log('%c✨ Welcome to Nathalie\'s Portfolio! ✨', 'color: #d4a5a5; font-size: 20px; font-weight: bold;');
-console.log('%cBuilt with passion and creativity 💖', 'color: #8fa3b0; font-size: 14px;');
