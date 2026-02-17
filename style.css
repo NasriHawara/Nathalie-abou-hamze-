@@ -582,6 +582,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
+    width: 100%;
 }
 
 .contact-text {
@@ -609,6 +610,7 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    width: 100%;
 }
 
 .social-card {
@@ -851,6 +853,22 @@ img {
     
     .social-links {
         grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .contact-content {
+        width: 100%;
+        align-items: stretch;
+        justify-items: stretch;
+    }
+
+    .contact-text {
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+        margin: 0;
     }
     
     .contact-text h3 {
@@ -881,34 +899,30 @@ img {
     }
 
         
-    /*.contact-content {
+    .contact-content {
+        width: 100%;
+        align-items: stretch;
+        justify-items: stretch;
+    }
+
+    .contact-text {
+        width: 100%;
+        text-align: center;
         padding: 0;
+        max-width: 100%;
+        margin: 0;
     }
-    
-    .contact-content .contact-text {
-        padding: 0 10px;
-    } 
-    
+
     .social-links {
-        padding: 0 10px;
-    } */
-
-    /*.contact-content .contact-text{
-        padding-right:200px;
-        margin:auto;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
     }
 
-    .contact-content .social-links{
-         padding-right:200px;
-        margin:auto;
+    .social-card {
+        width: 100%;
+        box-sizing: border-box;
     }
-
-    /*.contact-content .social-card{
-        padding-right:200px;
-        margin:auto;
-    }*/
-    
-    
 
 }
 
